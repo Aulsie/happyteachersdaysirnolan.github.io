@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FROM ICT</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <style>
+            body{
+                background-image: url("photos/bg2.jpg");
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="msg-box">
+                <h2>
+                    Exempted na po ba kami sa IAN module 4? UwU
+                </h2>
+                <button id="btn">
+                    <b>No</b>
+                </button>
+                <button id="btn2">
+                    <a  href="page7.html" style="text-decoration: none; color: inherit;"><b>Yes</b></a>
+                </button>
+                <style>
+                    .msg-box{
+                        margin:auto;
+                        margin-top: 12rem;
+                    }
+                </style>
+                <script>
+                    let btn = document.getElementById("btn");
+                    let position;
+                    btn.addEventListener('mouseover', () => {
+                        position = position ? 0 : 115;
+                        btn.style.transform = 'translate(' + position + 'px,0px)';
+                    });
+                </script>
+            </div>
+            
+        </div>
+    </body>
+
+</html>

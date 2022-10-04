@@ -1,0 +1,113 @@
+.body{
+    color:rgb(4, 255, 4);
+    background-color: rgba(66, 66, 66, 0.575);
+    border: 2px solid rgb(4, 255, 4);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    font-weight:normal;
+    /*font: normal 20px Impact, Charcoal, sans-serif;*/
+    line-height:1.5em;
+    /*line-height:3px;*/
+    padding: 20px;
+    border-radius: 15px;
+    margin:0;
+}
+.body2{
+    background-color: rgba(66, 66, 66, 0.575);
+    border: 2px solid rgb(255, 60, 60);
+    color:rgb(255, 60, 60);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    font-weight:normal;
+    /*font: normal 20px Impact, Charcoal, sans-serif;*/
+    line-height:1.5em;
+    /*line-height:3px;*/
+    padding: 20px;
+    border-radius: 15px;
+    margin-top:10px;
+    margin:1;
+}
+.body3{
+    background-color: rgba(66, 66, 66, 0.575);
+    border: 2px solid rgb(0, 204, 255);
+    color:rgb(0, 204, 255);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    font-weight:normal;
+    /*font: normal 20px Impact, Charcoal, sans-serif;*/
+    line-height:1.5em;
+    /*line-height:3px;*/
+    padding: 20px;
+    border-radius: 15px;
+    margin-top:10px;
+    margin:1;
+}
+.body4{
+    background-color: rgba(66, 66, 66, 0.575);
+    border: 2px solid rgb(225, 255, 0);
+    color:rgb(225, 255, 0);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    font-weight:normal;
+    /*font: normal 20px Impact, Charcoal, sans-serif;*/
+    line-height:1.5em;
+    /*line-height:3px;*/
+    padding: 20px;
+    border-radius: 15px;
+    margin-top:10px;
+    margin:1;
+}
+.msg-box{
+    background-color: rgba(74, 74, 74, 0.685);
+    border: 2px solid rgb(255, 176, 246);
+    color:rgb(255, 205, 249);
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size:15px;
+    font-weight:normal;
+    /*font: normal 20px Impact, Charcoal, sans-serif;*/
+    line-height:1.5em;
+    /*line-height:3px;*/
+    padding: 20px;
+    border-radius: 15px;
+    margin-top:10px;
+    margin:1; 
+}
+.container{
+    width:50%;
+    margin:auto;
+}
+
+
+.clr{
+    clear:both;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.98);
+    color: rgb(255, 30, 229);
+    border: 2px solid rgb(255, 60, 232);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+#btn{
+    padding: 10px;
+    border-radius: 15px;
+}
+#btn2{
+    padding: 10px;
+    border-radius: 15px;
+    margin-left:10px;
+}
+#btn2:hover{
+    background-color: rgba(255, 0, 191, 0.741);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
+#btn2:active{
+    background-color: rgba(106, 106, 106, 0.741);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+}
